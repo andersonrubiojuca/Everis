@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/parabens"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/quase_la"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_below="@+id/parabens"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textStyle="bold" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/fDescricao" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_below="@+id/map"
+        android:layout_marginTop="7dp"
+        android:text="@string/tipo_de_pagamento"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="13dp"
+        android:entries="@array/forma_de_pagamento" />
+
+    <EditText
+        android:id="@+id/fNome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="8dp"
+        android:text="Nome:" />
+
+    <Button
+        android:id="@+id/fbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fNome"
+        android:layout_marginTop="20dp"
+        android:text="Terminar Compra" />
+
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

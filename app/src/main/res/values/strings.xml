@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hamburgueria Everis</string>
+    <string name="login">Entre para conhecer nossos produtos:</string>
+    <string name="titulo">Escolha o seu pedido:</string>
+    <string name="terminar">Comprar</string>
+    <string name="quase_la">Quase lá!</string>
+    <string name="google_maps_key">AIzaSyCYsZxFJOj71d3ITl3EweNu42iU-2Zl6JU</string>
+    <string name="tipo_de_pagamento">Selecione o tipo de pagamento: </string>
+
+    <string-array name="forma_de_pagamento">
+        <item>Dinheiro</item>
+        <item>Crédito</item>
+        <item>Débito</item>
+    </string-array>
+</resources>

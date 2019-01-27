@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dNome"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text=""
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:gravity="left"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dPreco"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="right"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dComprarButton"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text="@string/terminar"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
