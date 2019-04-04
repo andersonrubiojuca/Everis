@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hamburgueria Everis</string>
+    <string name="app_name">Hamburgueria</string>
     <string name="login">Entre para conhecer nossos produtos:</string>
     <string name="titulo">Escolha o seu pedido:</string>
     <string name="terminar">Comprar</string>
